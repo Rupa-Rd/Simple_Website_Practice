@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <!-- Form Heading -->
+    <h1>
+        SURVEY FORM
+    </h1>
+    <form action="">
+        <!-- Name Section -->
+        <div class="breakline">
+            <label for="name" class="headline">
+                Name
+            </label>
+            
+            <input height="12" placeholder="Enter your name" class="area">
+        </div>
+
+        <!-- E-mail section -->
+        <div class="breakline">
+            <label for="email" class="headline">
+                Email
+            </label>
+            
+            <input type="email" name="emailId" placeholder="Enter your email" class="area">
+        </div>
+
+        <!-- Age Section -->
+        <div class="breakline">
+            <label for="age" class="headline">
+                Age
+            </label>
+            
+            <input type="age" name="age" placeholder="Enter your age" class="area">
+        </div>
+
+        <!-- Profession Section -->
+        <div class="breakline">
+            <label for="profession" class="headline">
+                Which option best describes you?
+            </label>
+            
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="developer">Developer</option>
+                <option value="tester">Tester</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <!-- Recommendation -->
+        <div class="breakline">
+            <label for="recommendation" class="headline">
+                Would you recommend GeeksforGeeks to a friend?
+            </label>
+            
+            <label for="recommend-1" >
+                <input type="radio" id = "recommend-1">
+                Yes
+            </label>
+            <br>
+            <label for="recommend-2" >
+                <input type="radio" id="recommend-2">
+                No
+            </label>
+            <br>
+            <label for="recommend-3">
+                <input type="radio" id="recommend-1">
+                Maybe
+            </label>
+            
+        </div>
+
+        <!-- Languages Known -->
+        <div class="breakline">
+            <label for="languages-knows" class="headline">
+                Languages and Frameworks Known (Check all that apply)
+            </label>
+            <label for="language-1" class="spacing">
+                <input type="checkbox" id="language-1" >
+                C
+            </label>
+            <label for="language-2" class="spacing">
+                <input type="checkbox"  id="language-2" >
+                C++
+            </label>
+            <label for="language-3" class="spacing">
+                <input type="checkbox" id="language-3">
+                Python
+            </label>
+            <label for="language-4" class="spacing">
+                <input type="checkbox"  id="language-4">
+                Java
+            </label>
+            <label for="language-5" class="spacing">
+                <input type="checkbox" id="language-5">
+                Javascript
+            </label>
+            <label for="language-6" class="spacing">
+                <input type="checkbox" id="language-6">
+                React
+            </label>
+            <label for="language-7" class="spacing">
+                <input type="checkbox"  id="language-7">
+                Django
+            </label>
+            <label for="language-8" class="spacing">
+                <input type="checkbox" id="language-8">
+                Angular
+            </label>
+            <label for="language-9" class="spacing">
+                <input type="checkbox" id="language-9">
+                Spring
+            </label>
+        </div>
+        <div class="breakline">
+            <label for="comments" class="headline">
+                Any Comments or Suggestions ?
+            </label>
+            <textarea id="comment"placeholder="Write your comments.." class="breakline">
+            </textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div>
+            <button type="submit" class="area">
+                SUBMIT
+            </button>
+        </div>
+    </form>
+</body>
+</html>

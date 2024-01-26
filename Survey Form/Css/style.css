@@ -1,0 +1,44 @@
+body{
+    background-color: ghostwhite;
+}
+h1{
+    text-align: center;
+}
+.breakline{
+    margin-bottom: 25px;
+}
+.spacing {
+    display: block;
+    
+    
+}
+.headline{
+    font-size: 20px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+form{
+    width: 50%;
+    background-color: lightgray;
+    border: 10px outset gray;
+    padding: 50px;
+    margin: auto;
+}
+select{
+    width: 95%;
+    height: 35px;
+}
+.area{
+    width: 95%;
+    height: 30px;
+    
+}
+textarea{
+    width: 95%;
+    height: 100px;
+}
+button{
+    background-color: gray;
+    border: 3px solid black;
+}
